@@ -81,6 +81,31 @@ ul{
 hr{
     margin: 10px 0;
 }
+
+@media (max-width: 768px){
+    .nav-logo, .icon{
+        display: none;
+    }
+
+    .nav-items{
+        margin:0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-items li{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-items li a {
+        font-size: 20px;
+    }
+  
+}
+
+
+
 /* HEADER */
 
 .header{
@@ -170,6 +195,12 @@ hr{
 }
 .estudios-datos div{
     padding: 10px 20px;
+}
+.estudios-datos h4{
+    font-weight: bold;
+}
+.estudios-datos p{
+    font-size: 18px
 }
 
 /*PERFIL*/
